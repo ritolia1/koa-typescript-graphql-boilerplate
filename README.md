@@ -1,2 +1,2 @@
 # koa-typescript-graphql-boilerplate
-Boiler plate to get started with Node.js, TypeScript, GraphQl
+A starter kit for building amazing GraphQL API's with TypeScript and koa
