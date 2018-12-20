@@ -12,7 +12,7 @@ Make sure you have following things installed
 
 ### Tech/Framework Used
 ```
- 1. Koa
+ 1. Koa2
  2. TypeScript
  3. GraphQl
  4. Docker
