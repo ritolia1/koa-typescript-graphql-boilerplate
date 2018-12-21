@@ -31,7 +31,12 @@ Make sure you have following things installed
 ### How to Run the application
 ```
  1. cp .env.sample .env (make desired changes)
- 1. npm start
+ 2. npm start
+```
+
+### How to check application is running or not
+```
+  Open any browser, and hit https://localhost:3000/health
 ```
 
 ### Server Configuration (optional)
