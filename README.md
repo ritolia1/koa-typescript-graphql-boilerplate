@@ -31,6 +31,7 @@ Make sure you have following things installed
 
 ### How to Run the application
 ```
+ 1. cp .env.sample .env (make desired changes)
  1. npm start
 ```
 
@@ -39,11 +40,12 @@ You can use .env file, to configure project like this:
 ```
  1. NODE_ENV = development
  2. PORT = 3000
- 3. MOCK_MODE = true (to run application in mock mode -- testing)
+ 3. MOCK_MODE = true
 ```
 
 ### Variables description
 ```
  1. NODE_ENV - specify env: development/production/test. development by default
  2. PORT - specify port: 3000 by default
+ 3. MOCK_MODE - Testing or running application with sample data
 ```

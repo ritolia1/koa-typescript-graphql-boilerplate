@@ -1,0 +1,33 @@
+/*  
+  Make sure you add any compiler config in alphabetical order.
+  For Ref: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+*/
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true, /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "es2017"
+    ], /* Specify library files to be included in the compilation. */
+    "module": "commonjs", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
+    "noImplicitAny": true, /* Raise error on expressions and declarations with an implied any type */
+    "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+    "noUnusedLocals": true, /* Report errors on unused locals. */
+    "removeComments": true, /* Remove all comments except copy-right header comments beginning with /*!*/
+    "sourceMap": false,
+    "strict": true, /* Enable all strict type-checking options. */
+    "target": "ES2017", /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
+    "typeRoots": [
+      "./types",
+      "node_modules/@types"
+    ], /* List of folders to include type definitions from. */
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
