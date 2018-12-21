@@ -1,0 +1,52 @@
+.git
+.gitignore
+.editorconfig
+.vscode
+nohup.out
+*.log
+docker-compose.yml
+start.sh
+README.md
+node_modules
+#
+# OS X
+#
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+.apdisk
+
+#
+# APP
+#
+.env.sample
+.env_active
+*.rbc
+capybara-*.html
+log
+tmp
+db/*.sqlite3
+db/*.sqlite3-journal
+public/system
+coverage/
+spec/tmp
+**.orig
+
+.bundle
+start.sh
+*.bowerrc
+bower.json
