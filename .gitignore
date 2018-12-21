@@ -1,0 +1,15 @@
+# Dependency directory
+node_modules
+
+# Logs directory
+logs
+
+# Env file - will be provided by the environment we are running
+.env
+
+# Editor files for IntelliJ & VSCode
+.idea/
+.vscode/
+
+# Code coverage
+coverage 
