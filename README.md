@@ -1,5 +1,7 @@
-# koa-typescript-graphql-boilerplate
+# 💁‍♂️ koa-typescript-graphql-boilerplate
 A starter kit for building amazing GraphQL API's with TypeScript and Koa.
+
+<div align="center"><img src="https://imgur.com/1MfnLVl.png" /></div>
 
 Note: Will be committing the source code soon.
 
@@ -12,7 +14,7 @@ Make sure you have following things installed
 
 ### Tech/Framework Used
 ```
- 1. Koa
+ 1. Koa2
  2. TypeScript
  3. GraphQl
  4. Docker
